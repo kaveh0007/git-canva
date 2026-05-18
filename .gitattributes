@@ -1,0 +1,3 @@
+#Helps mitigate supporting code dominate github's stats (I personally don't like HTML dominating the stats)
+app/templates/** linuguist-vendored
+app/static/** linguist-vendored
