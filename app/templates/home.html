@@ -2,8 +2,11 @@
 {% block content %}
 <h1>Let's give your github a personality</h1>
 <div>
-    <input placeholder="Your github username">
-    <button type="submit" onclick="handleClick()">Let's see</button>
+    <form action="#">
+    {{ form.hidden_tag() }}
+    {{ form.username.label }}
+    {{ form.username }}
+    {{ form.fetch }}
+    </form>
 </div>
-
 {% endblock content %}
